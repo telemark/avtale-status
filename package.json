@@ -1,0 +1,63 @@
+{
+  "name": "avtale-status",
+  "description": "Sends documents to SvarUt",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "node index.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "tfk",
+    "Telemark fylkeskommune",
+    "Avtaler",
+    "Status",
+    "FIKS",
+    "Robot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telemark/avtale-status"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/robot-svarut/avtale-status"
+  },
+  "homepage": "https://github.com/telemark/avtale-status#readme",
+  "devDependencies": {
+    "ava": "0.25.0",
+    "coveralls": "3.0.0",
+    "nsp": "3.2.1",
+    "nyc": "11.6.0",
+    "standard": "11.0.1"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "dotenv": "5.0.1",
+    "jsonwebtoken": "8.2.1",
+    "uuid": "3.2.1",
+    "winston": "2.4.1",
+    "winston-papertrail": "1.0.5"
+  }
+}
