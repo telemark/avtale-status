@@ -1,6 +1,6 @@
 {
   "name": "avtale-status",
-  "description": "Sends documents to SvarUt",
+  "description": "Checks the status for agreements",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
