@@ -1,5 +1,5 @@
 const test = require('ava')
-const pkg = require('../package.json')
+const pkg = require('../../package.json')
 const dependencies = pkg.dependencies || {}
 const devDependencies = pkg.devDependencies || {}
 const dropModules = ['nsp']
