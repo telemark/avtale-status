@@ -1,0 +1,23 @@
+{
+  "_id": "123",
+  "agreementId": "1233456",
+  "agreementUserId": "123456778098",
+  "agreementType": "elevpc",
+  "agreementName": "Låneavtale elevpc",
+  "requireDigitalSignature": true,
+  "created": 1525087761027,
+  "dueDays": 1,
+  "history": [],
+  "status": "unsigned",
+  "partId": "12345",
+  "partUserId": "123456778098",
+  "updated": 1528961296557,
+  "signedHistory": [
+    {
+      "tidspunkt": "30.04.2018 13:40:41",
+      "type": "SigneringsoppdragRegistrert",
+      "hendelse": "Signeringsoppdrag av type AUTENTISERT_SIGNATUR registert og utløper 01.05.2018"
+    }
+  ],
+  "readStatus": "LEVERT_SDP"
+}
