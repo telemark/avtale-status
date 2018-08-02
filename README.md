@@ -36,6 +36,15 @@ $ docker run --env-file=docker.env --volume=/test/directories/jobs:/src/test/dir
 
 This will start a container. Do the updates. Stop the container and remove it.
 
+## Releated
+
+- [avtale-generate-grunnlag](https://github.com/telemark/avtale-generate-grunnlag)
+- [avtale-generator](https://github.com/telemark/avtale-generator)
+- [robot-convert-docx-to-pdf](https://github.com/telemark/robot-convert-docx-to-pdf)
+- [avtale-distribusjon](https://github.com/telemark/avtale-distribusjon)
+- [robot-post-payload](https://github.com/telemark/robot-post-payload)
+- [avtale-logg](https://github.com/telemark/avtale-logg)
+
 ## License
 
 [MIT](LICENSE)
