@@ -22,6 +22,7 @@ PAPERTRAIL_HOSTNAME=avtale-robot
 PAPERTRAIL_HOST=logs.papertrailapp.com
 PAPERTRAIL_PORT=12345
 ```
+
 ## Build
 
 ```sh
