@@ -1,4 +1,5 @@
 FROM node:10.8.0-alpine
+
 #### Begin setup ####
 
 # Installs git
