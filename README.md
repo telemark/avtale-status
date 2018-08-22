@@ -3,7 +3,9 @@
 
 # avtale-status
 
-Checks the status for agreements. Generate job files for updating.
+- Checks the status for agreements.
+- Generate job for updating.
+- Post statusupdate to log
 
 ## Setup
 
@@ -43,11 +45,8 @@ This will start a container. Do the updates. Stop the container and remove it.
 - [avtale-generator](https://github.com/telemark/avtale-generator)
 - [robot-convert-docx-to-pdf](https://github.com/telemark/robot-convert-docx-to-pdf)
 - [avtale-distribusjon](https://github.com/telemark/avtale-distribusjon)
-- [robot-post-payload](https://github.com/telemark/robot-post-payload)
 - [avtale-logg](https://github.com/telemark/avtale-logg)
 
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of avtale-status](https://robots.kebabstudios.party/avtale-status.png "Robohash image of avtale-status")
