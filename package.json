@@ -55,7 +55,7 @@
     "arrify": "1.0.1",
     "avtale-templates": "1.6.4",
     "axios": "0.18.0",
-    "dotenv": "6.2.0",
+    "dotenv": "7.0.0",
     "jsonwebtoken": "8.5.0",
     "uuid": "3.3.2",
     "winston": "2.4.4",
